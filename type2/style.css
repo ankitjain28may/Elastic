@@ -1,0 +1,41 @@
+body {
+	background: url("5.jpg") 100% 100%;
+	opacity: 1;
+	margin: 0;
+	padding:0;
+	background-repeat: no-repeat;
+}
+.outer {
+	background-color: white;
+	height: 65%;
+	width: 500px;
+	padding: 50px;
+	padding-top: 2px;
+	position: absolute;
+	top: 10%;
+	right: 20px;
+	box-shadow: 2px 5px 13px 2px rgba(0,0,0,0.7);
+
+}
+.inner {
+	padding-top: 0;
+	font-family: 'Opens Sans' , sans-serif ;
+	color: #333;
+}
+.ques {
+	font-size: 15px;
+	font-weight: 100px;
+	line-height: 2em;
+}
+hr {
+	width: 80%;
+	margin-left: 0;
+	color: #555;
+}
+.ans ul {
+	list-style: none;
+}
+.ans li {
+	display: inline;
+	margin-left:0;
+}
